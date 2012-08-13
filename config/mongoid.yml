@@ -69,8 +69,5 @@ test:
 production:
   sessions:
     default:
-      uri: hai_test
-      hosts:
-        - localhost:27017
+      uri: "mongodb://heroku:af4cfee4967fcf628284b47fcbcdb254@alex.mongohq.com:10000/app6672423"
       options:
-        consistency: :strong
