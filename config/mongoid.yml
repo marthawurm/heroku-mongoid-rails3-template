@@ -69,7 +69,7 @@ test:
 production:
   sessions:
     default:
-      uri: "mongodb://<username>:<password>@alex.mongohq.com:10000/app6692986"
+      uri: "mongodb://heroku:6f3870159d2beae66ba59a6e7d73aecd@alex.mongohq.com:10000/app6692986"
       options:
        skip_version_check: true
        safe: true
