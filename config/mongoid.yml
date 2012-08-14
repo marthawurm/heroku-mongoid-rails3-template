@@ -69,6 +69,7 @@ test:
 production:
   sessions:
     default:
+      #edit uri with your user name and password
       uri: "mongodb://<user>:<pass>@hatch.mongohq.com:10034/app003132345"
       options:
        skip_version_check: true
